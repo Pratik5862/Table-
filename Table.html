@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: darkcyan;
+            font-family: sans-serif;
+        }
+
+        .table-container {
+            padding: 0 10%;
+            margin: 40px;
+            auto 0;
+        }
+
+        .heading {
+            font-size: 40px;
+            text-align: center;
+            color: rgb(27, 31, 27);
+            margin-bottom: 40px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table thead {
+            background-color: darkred;
+        }
+
+        .table thead tr th {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.35px;
+            color: gold;
+            opacity: 1;
+            padding: 12px;
+            vertical-align: top;
+            border: 1px solid #dee2e685;
+        }
+
+        .table tbody tr td {
+            font-size: 15px;
+            letter-spacing: 0.35px;
+            font-weight: normal;
+            color: #f1f1f1;
+            background-color: #3c3f44;
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #dee2e685;
+        }
+
+        .table .text_open {
+            font-size: 15px;
+            font-family: bold;
+            letter-spacing: 00.35px;
+            color: #ff1046;
+        }
+
+        .table tbody tr td .btn {
+            width: 130px;
+            text-decoration: none;
+            line-height: 35px;
+            display: block;
+            background-color: #FF1046;
+            font-weight: medium;
+            color: #ffffff;
+            text-align: center;
+            vertical-align: middle;
+            user-select: none;
+            border: 1pxvs solid transparent;
+            font-size: 14px;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Table-container">
+        <h1 class="heading">Responsive Table</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Start Date</th>
+                    <th>Start / End Time</th>
+                    <th>Batch type</th>
+                    <th>Training Mode</th>
+                    <th>Batch stetus</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Start Date">1 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+                </tr>
+                <tr>
+                    <td data-label="Start Date">2 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">3 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">4 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">5 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">6 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">7 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">7 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">8 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">9 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+                <tr>
+                    <td data-label="Start Date">10 jan 2021</td>
+                    <td data-label="Start / End Time">09:00 - 13:00 (IST)</td>
+                    <td data-label="Batch type">Weackend</td>
+                    <td data-label="Training Mode">Online Training</td>
+                    <td data-label="Batch stetus"><span class="Text Open">[ Open ]</span></td>
+                    <td data-label="#"><a href="#" class="btn">Enroll Now</a></td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</body>
+
+</html>
